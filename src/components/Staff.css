@@ -1,0 +1,46 @@
+.Staff-staff {
+    position: relative;
+    width: 550px;
+    padding-top: 120px;
+    margin-bottom: 200px;
+    
+}
+  
+hr {
+    margin-bottom: 60px;
+    border: 2px solid black;
+}
+
+.Staff-ledgerLine {
+    position: relative;
+    left: 70px;
+    width: 120px;
+    border: 2px solid black;
+}
+
+.Staff-treble {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+  
+    background-image: url('../treble.png');
+    background-repeat: no-repeat;
+    background-position: center;
+  
+    height: 530px;
+    width: 200px;
+}
+
+.Staff-bass {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+
+    background-image: url('../bass.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 180px 210px;
+
+    height: 467px;
+    width: 200px;
+}

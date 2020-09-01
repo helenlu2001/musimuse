@@ -1,0 +1,29 @@
+/* high F is at 100, every note afterwards is increment by 32*/
+.Note {
+    position: absolute;
+    left: 300px;
+
+    width: 100px;
+    height: 60px;
+
+    background-size: 100%;
+    background-image: url('../note.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+
+/*
+    G5: 68px
+    F5: 100px
+    E5: 132px
+    D5: 164px
+    C5: 196px
+    B4: 228px
+    A4: 260px
+    G4: 292px
+    F4: 324px
+    E4: 356px
+    D4: 388px
+*/
